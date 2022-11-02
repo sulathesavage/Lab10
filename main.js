@@ -83,11 +83,11 @@ console.log(get_sum(lab_results))
 function main(lab1, lab2, lab3, lab45, lab6, lab8, quiz1) {
     let overall = (get_sum(lab_results)) * 60/280 + B1 
     let object = overall
-    const resul = 
+    const result = 
     {
         object 
     }
-    return resul
+    return result
 
 }
 console.log(main())
