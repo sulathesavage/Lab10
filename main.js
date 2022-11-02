@@ -64,7 +64,17 @@ function get_sum(lab_results) {
     for (let i = 0; i<lab_results.length; i++) {
         sumlabs += lab_results[i];
     }
-    result = sumlabs
+    const result =
+          {
+              lab1,
+              lab2,
+              lab3,
+              lab45,
+              lab6,
+              lab8,
+              quiz1,
+              sumlabs
+          }
     return result
 }
 console.log(get_sum(lab_results))   
@@ -73,11 +83,11 @@ console.log(get_sum(lab_results))
 function main(lab1, lab2, lab3, lab45, lab6, lab8, quiz1) {
     let overall = (get_sum(lab_results)) * 60/280 + B1 
     let object = overall
-    const result = 
+    const resul = 
     {
         object 
     }
-    return result
+    return resul
 
 }
 console.log(main())
