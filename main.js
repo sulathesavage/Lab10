@@ -1,3 +1,4 @@
+
 // Task 1
 let lab1 = [5, 5, 0, 0, 5, 0, 10]
 let lab2 = [5, 5, 5, 5, 4, 5, 10]
@@ -56,7 +57,7 @@ for (let i = 0; i<quiz1.length; i++) {
 }
 B1 = sumquiz1
 console.log(B1)
-
+let x=0
 // Task 3
 let lab_results = [A1, A2, A3, A45, A6, A8]
 function get_sum(lab_results) {
@@ -75,13 +76,13 @@ function get_sum(lab_results) {
               quiz1,
               sumlabs
           }
-    return result
+          x=sumlabs
+      return result
 }
 console.log(get_sum(lab_results))   
-
 // Task 4
 function main(lab1, lab2, lab3, lab45, lab6, lab8, quiz1) {
-    let overall = (get_sum(lab_results)) * 60/280 + B1 
+    let overall = x * 60/280 + B1 ;
     let object = overall
     const result = 
     {
@@ -91,6 +92,3 @@ function main(lab1, lab2, lab3, lab45, lab6, lab8, quiz1) {
 
 }
 console.log(main())
-
-
-
